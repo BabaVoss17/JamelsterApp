@@ -1,0 +1,32 @@
+#################################################
+###  JamelsterApp End-to-End Integration Test ###
+#################################################
+
+##Integration Test##
+
+Step 1: Authenticate
+	-Click Authenticate
+	-Sign in with Google and copy the code
+	-Paste it into the app when prompted
+	(You should now be connected!)
+
+Step 2: Upload a File
+	-Click Upload
+	-Choose a file (e.g., TestFile.txt)
+	-Confirmation appears in the log
+
+Step 3: List Files
+	-Click List Files
+	-See the file listed with name, type, and modified date
+
+Step 4: Download File
+	-Select the file
+	-Click Download
+	-Choose where to save
+	(File will be saved locally)
+
+Step 5: Delete File
+	-Select the file
+	-Click Delete and confirm
+	(File will be removed from Drive)
+
